@@ -20,5 +20,8 @@ from sport import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='home')
+    path('', views.index, name='home'),
+    path('foot/', views.foot, name='foot'),
+    path('basc/', views.basc, name='basc'),
+    path('ten/', views.ten, name='ten'),
 ]
