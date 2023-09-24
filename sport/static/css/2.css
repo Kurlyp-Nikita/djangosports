@@ -31,14 +31,26 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-content: stretch;
+    text-align: center;
+    padding: 20px;
+
 }
 
-fs a{
+.fs a{
     width: 25%;
     text-align: center;
 }
 
 .fs img{
     width: 25%;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 
+#c1{
+    width: 25%;
+}
+
+#c2{
+    width: 25%;
+}
